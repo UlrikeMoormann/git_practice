@@ -1,84 +1,153 @@
-<html>
-  <head>
-    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles.css">
-  </head>
-  <body>
-    <h1>My Website Style Guide</h1>
-    <div class="container">
-      <h2>Colors</h2>
-      <div class="color-container">
-        <div class="color-panel cool-blue">
-          <p class="color-label" >Cool Blue</p>
-          <p class="color-hex">#2d5dcc</p>
-        </div>
-        <div class="color-panel pink">
-          <p class="color-label" >Pink</p>
-          <p class="color-hex">#d957d9</p>
-        </div>
-        <div class="color-panel mint-green">
-          <p class="color-label" >Mint Green</p>
-          <p class="color-hex">#4fe0b0</p>
-        </div>
-        <div class="color-panel beige">
-          <p class="color-label" >Beige</p>
-          <p class="color-hex">#efd9ca</p>
-        </div>
-      </div>
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Boxer Passion</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<!--title-->
+	<div class="header">
+    	<h1>Boxer Passion</h1>
+        <p>Eindrücke meiner Boxer</p>
     </div>
-    <div class="container">
-      <h2>Fonts</h2>
-      <div class="font-container">
-        <div class="font-panel">
-          <p class="font-label source-code-pro">Source Code Pro</p>
-          <p class="regular source-code-pro">The quick brown fox jumps over the lazy dog.</p>
-          <p class="bold source-code-pro">The quick brown fox jumps over the lazy dog.</p>
-          <p class="italic source-code-pro">The quick brown fox jumps over the lazy dog.</p>
+<!--title-->
+
+<div class="filters filter-button-group">
+	<ul>
+		<li class="active"><a href="javascript:void(0);" data-filter="*">All</a></li>
+		<li><a href="javascript:void(0);" data-filter="aristo">Aristo</a></li>
+		<li><a href="javascript:void(0);" data-filter="kayenne">Kayenne</a></li>
+        <li><a href="javascript:void(0);" data-filter="barista">Barista</a></li>
+	</ul>
+</div>
+	<div id="container" class="isotope">
+    
+		<div class="grid-item" data-filter="aristo">
+        <a class="popupimg" href="https://boxer-von-karistum.de/wp-content/uploads/2017/06/13007374_1109572252440211_8772860095665767792_n.jpg">
+        <img src="https://boxer-von-karistum.de/wp-content/uploads/2017/06/13007374_1109572252440211_8772860095665767792_n.jpg">
+        </a>
+        <div class="overlay">Aristo mit Ball</div>
         </div>
-        <div class="font-panel">
-          <p class="font-label nunito-sans">Nunito Sans</p>
-          <p class="regular nunito-sans">The quick brown fox jumps over the lazy dog.</p>
-          <p class="bold nunito-sans">The quick brown fox jumps over the lazy dog.</p>
-          <p class="italic nunito-sans">The quick brown fox jumps over the lazy dog.</p>
+        
+        
+        <div class="grid-item" data-filter="kayenne">
+        <a class="popupimg" href="https://boxer-von-karistum.de/wp-content/uploads/2017/05/14705694_1607771152859678_4246857566118719026_n.jpg">
+        <img src="https://boxer-von-karistum.de/wp-content/uploads/2017/05/14705694_1607771152859678_4246857566118719026_n.jpg">
+        </a>
+        <div class="overlay">Kayenne 5 Jahre</div>
         </div>
-        <div class="font-panel">
-          <p class="font-label poppins">Poppins</p>
-          <p class="regular poppins">The quick brown fox jumps over the lazy dog.</p>
-          <p class="bold poppins">The quick brown fox jumps over the lazy dog.</p>
-          <p class="italic poppins">The quick brown fox jumps over the lazy dog.</p>
+        
+        
+		<div class="grid-item" data-filter="aristo">
+        <a class="popupimg" href="https://boxer-von-karistum.de/wp-content/uploads/2016/06/12973207_1109558289108274_2183695505957124937_o.jpg">
+        <img src="https://boxer-von-karistum.de/wp-content/uploads/2016/06/12973207_1109558289108274_2183695505957124937_o.jpg">
+        </a>
+        <div class="overlay">Aristo 9,5 Jahre alt</div>
         </div>
-      </div>
-    </div>
-    <div class="container">
-      <h2>Text Styles</h2>
-      <div class="text-container">
-        <div class="text-panel">
-          <h1>H1: Main page heading</h1>
-          <ul>
-            <li>Font-weight: 700 (bold)</li>
-            <li>Font-size: 26px</li>
-            <li>Font-family: Nunito Sans</li>
-          </ul>
+        
+        
+        <div class="grid-item" data-filter="kayenne">
+        <a class="popupimg" href="https://boxer-von-karistum.de/wp-content/uploads/2017/05/16143401_1372371992826901_3712015413368623317_o.jpg">
+        <img src="https://boxer-von-karistum.de/wp-content/uploads/2017/05/16143401_1372371992826901_3712015413368623317_o.jpg">
+        </a>
+        <div class="overlay">Kayenne 6 Jahre alt</div>
         </div>
-        <div class="text-panel">
-          <h2>H2: Subheading</h2>
-          <ul>
-            <li>Font-weight: 500</li>
-            <li>Font-size: 18px</li>
-            <li>Font-family: Poppins</li>
-          </ul>
+        
+        
+		<div class="grid-item" data-filter="aristo">
+        <a class="popupimg" href="https://boxer-von-karistum.de/wp-content/uploads/2017/05/17036113_1288393731206504_1657342780_o.jpg">
+        <img src="https://boxer-von-karistum.de/wp-content/uploads/2017/05/17036113_1288393731206504_1657342780_o.jpg">
+        </a>
+        <div class="overlay">Aristo 9,5 Jahre alt</div>
         </div>
-        <div class="text-panel">
-          <p>P: Paragraph text</p>
-          <ul>
-            <li>Font-weight: 400 (regular)</li>
-            <li>Font-size: 14px</li>
-            <li>Font-family: Poppins</li>
-          </ul>
+        
+        
+        <div class="grid-item" data-filter="barista">
+        <a class="popupimg" href="https://boxer-von-karistum.de/wp-content/uploads/2017/05/Barista-11W-2.jpg">
+        <img src="https://boxer-von-karistum.de/wp-content/uploads/2017/05/Barista-11W-2.jpg">
+        </a>
+        <div class="overlay">Barista 12 Wochen alt</div>
         </div>
-      </div>
-    </div>
-  </body>
+        
+        
+		<div class="grid-item" data-filter="barista">
+        <a class="popupimg" href="https://boxer-von-karistum.de/wp-content/uploads/2017/07/2B1A7836-klein.jpg">
+        <img src="https://boxer-von-karistum.de/wp-content/uploads/2017/07/2B1A7836-klein.jpg">
+        </a>
+        <div class="overlay">Barista 5 Wochen alt</div>
+        </div>
+        
+        
+        <div class="grid-item" data-filter="kayenne">
+        <a class="popupimg" href="https://boxer-von-karistum.de/wp-content/uploads/2019/08/Barista-Kopf-2Jahre.jpg">
+        <img src="https://boxer-von-karistum.de/wp-content/uploads/2019/08/Barista-Kopf-2Jahre.jpg">
+        </a>
+        <div class="overlay">Barista Kopf 2 Jahre</div>
+        </div>
+        
+        
+		<div class="grid-item" data-filter="barista">
+        <a class="popupimg" href="https://boxer-von-karistum.de/wp-content/uploads/2018/10/Kopf-15M-1.jpg">
+        <img src="https://boxer-von-karistum.de/wp-content/uploads/2018/10/Kopf-15M-1.jpg">
+        </a>
+        <div class="overlay">Barista 13 Monate alt</div>
+        </div>
+        
+		<div class="grid-item" data-filter="kayenne">
+        <a class="popupimg" href="https://boxer-von-karistum.de/wp-content/uploads/2017/05/13914100_1184393614958074_4541490028061400368_o.jpg">
+        <img src="https://boxer-von-karistum.de/wp-content/uploads/2017/05/13914100_1184393614958074_4541490028061400368_o.jpg">
+        </a>
+        <div class="overlay">Kayenne 4 Jahre alt</div>
+        </div>
+        
+        
+		<div class="grid-item" data-filter="kayenne">
+        <a class="popupimg" href="https://boxer-von-karistum.de/wp-content/uploads/2017/05/13679957_1184393668291402_2390067977058563812_o.jpg">
+        <img src="https://boxer-von-karistum.de/wp-content/uploads/2017/05/13679957_1184393668291402_2390067977058563812_o.jpg">
+        </a>
+        <div class="overlay">Kayenne Sprung Meterhürde</div>
+        </div>
+        
+        
+        <div class="grid-item" data-filter="aristo">
+        <a class="popupimg" href="https://boxer-von-karistum.de/wp-content/uploads/2017/06/13000314_1109572249106878_6641040423024299095_n.jpg">
+        <img src="https://boxer-von-karistum.de/wp-content/uploads/2017/06/13000314_1109572249106878_6641040423024299095_n.jpg">
+        </a>
+        <div class="overlay">Aristo 5 Wochen alt</div>
+        </div>
+        
+        
+		<div class="grid-item" data-filter="kayenne">
+        <a class="popupimg" href="https://boxer-von-karistum.de/wp-content/uploads/2017/06/2B1A2642-bearbeitet-klein.jpg">
+        <img src="https://boxer-von-karistum.de/wp-content/uploads/2017/06/2B1A2642-bearbeitet-klein.jpg">
+        </a>
+        <div class="overlay">Kayenne mit B-Wurf</div>
+        </div>
+		
+
+	</div>
+    
+    <div class="isotope-pager" style="padding-top: 15px; text-align:center;">
+        </div>
+    
+    <!-- footer -->
+			<div class="footer">
+				<p>&copy;<script>document.write(new Date().getFullYear());</script>  </p>
+			</div>
+			
+<!-- //footer -->
+
+
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js'></script><script  src="./script.js"></script>
+
+</body>
 </html>
